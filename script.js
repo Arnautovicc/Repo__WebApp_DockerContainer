@@ -20,6 +20,6 @@ document.getElementById('year').textContent = new Date().getFullYear();
 document.getElementById('contactForm').addEventListener('submit', (event) => {
   event.preventDefault();
   const formMessage = document.getElementById('formMessage');
-  formMessage.textContent = 'Merci pour votre message ! Ce formulaire est une démonstration : configurez un service backend pour recevoir les demandes.';
+  formMessage.textContent = 'Merci pour votre message ! Ce formulaire est une démonstration Test: configurez un service backend pour recevoir les demandes.';
   event.target.reset();
 });
